@@ -1,8 +1,9 @@
-. {
+* {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
 }
+
 .container {
   display: flex;
   border: 2px solid black;
