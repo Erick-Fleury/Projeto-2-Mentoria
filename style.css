@@ -13,7 +13,7 @@
   height: fit-content;
   align-items: center;
   background-color: yellow;
-  justify-content: space-evenly;
+  flex-direction: column;
 }
 h1 {
   display: flex;
