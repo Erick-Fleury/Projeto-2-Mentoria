@@ -1,33 +1,7 @@
 * {
-  margin: 0;
-  box-sizing: border-box;
   padding: 0;
-}
-
-.container {
-  display: flex;
-  border: 2px solid black;
-  margin: 0 auto 0 auto;
-  padding: 10px 15px;
-  width: 600px;
-  height: fit-content;
-  align-items: center;
-  background-color: yellow;
-  flex-direction: column;
-}
-h1 {
-  display: flex;
-  justify-content: center;
-}
-.task-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid black;
-  margin: 0 auto 0 auto;
-  padding: 10px 15px;
-  width: 400px;
-  height: fit-content;
-  background-color: #000000;
-  color: yellow;
+  margin: 0;
+  font-family: Helvetica;
+  color: #333;
+  box-sizing: border-box;
 }

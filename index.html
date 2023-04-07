@@ -6,20 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-do List</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./app.js" defer></script>
   </head>
   <body>
-    <div class="container">
-      <h1>Lista de Tarefas (To-do list)</h1>
-      <form class="task-form">
-        <input
-          type="text"
-          name="input-tarefa"
-          id="input-tarefa"
-          placeholder="Inserir uma tarefa"
-        />
-        <button class="addbutton" type="submit">Adicionar</button>
+    <div class="container-todo">
+      <header>
+        <h1>Lista de Tarefas (To-do list)</h1>
+      </header>
+      <form id="task-form">
+        <p>Adicione sua tarefa:</p>
+        <div class="form-controle">
+          <input
+            type="text"
+            name="input-tarefa"
+            id="input-tarefa"
+            placeholder="Inserir uma tarefa"
+          />
+          <button type="submit">
+            <i class="fa-thin fa-plus"></i>
+          </button>
+        </div>
       </form>
+      <form id="form-edit">
+        <p>Edite sua tarefa</p>
+        <div class="form-controle">
+          <input type="text" id="input-edit" />
+          <button type="submit">
+            <i class="fa-solid fa-check-double"></i>
+          </button>
+        </div>
+        <button id="btn-cancel-edit">Cancelar</button>
+      </form>
+      <div id="list-todo">
+        <div class="todo">
+          <h3>Estou fazendo ..</h3>
+          <button class="finish-todo"><i class="fa-solid fa-check"></i></button>
+          <button class="edit-todo"><i class="fa-solid fa-pen"></i></button>
+          <button class="remove-todo"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+      </div>
     </div>
-    <script src="./app.js"></script>
   </body>
 </html>
