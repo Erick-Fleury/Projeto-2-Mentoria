@@ -54,12 +54,12 @@ button i {
 
 /*Forms */
 
-#task-form,
+#todo-form,
 #edit-form {
   padding: 1rem;
   border-bottom: 1px solid #ccc;
 }
-#task-form p,
+#todo-form p,
 #edit-form p {
   margin-bottom: 0.5rem;
   font-weight: bold;
